@@ -1,0 +1,420 @@
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body > div {
+    border-radius: 20px;
+}
+
+.header {
+    font-family: 'Quicksand';
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header li {
+    padding: 0 25px;
+    align-self: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: #757E9A;
+}
+
+.header button {
+    background-color: #D2E1FF;
+    border-color: white;
+    border-style: solid;
+    color: #3A79FF;
+    font-size: 13pt;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.header .rightListHeader svg {
+    fill: #757E9A;
+}
+
+.header .leftListHeader svg {
+    fill: #3A79FF;
+}
+
+.heroImage {
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+    background-image: url('images/hero.png');
+    position: relative;
+}
+
+.heroImage p {
+    font-size: 10pt;
+    color: #3D4F9F;
+    font-family: 'Roboto'
+}
+
+.heroImage h1 {
+    font-size: 48pt;
+    color: #3D4F9F;
+    font-weight: 100;
+    font-family: 'Quicksand';
+}
+
+.heroImage pre {
+    font-size: 15pt;
+    font-weight: 100;
+    color: #8D96BD;
+    font-family: 'Roboto'
+}
+ .heroSlaider2, .heroSlaider3 {
+    display: none;
+ }
+
+ .slaiderDots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+ }
+
+ .slaiderDots svg {
+    fill: #D1D6E3;
+    cursor: pointer;
+ }
+
+ .slaiderDots svg:first-child {
+    fill: #5283FF;
+ }
+
+ .customers {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+ }
+
+ .customers svg {
+    margin: 0 2%;
+    cursor: pointer;
+    align-self: center;
+ }
+
+.blog {
+    padding: 4%;
+    text-align: center;
+    background-color: #F5F8FF;
+}
+
+.blog h4 {
+    color: #3D4F9F;
+    font-family: 'Roboto';
+    font-size: 10pt;
+    font-weight: lighter;
+    margin: 2% 0 0 0;
+}
+
+.blog h3 {
+    font-family: 'Quicksand';
+    font-size: 24pt;
+    color: #3D4F9F;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.howToStart {
+    background-color: white;
+    padding: 60px 40px 60px 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.howToStart .imagesHowToStart {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.howToStart .imagesHowToStart > img {
+    display: block;
+    align-self: flex-start;
+}
+
+.howToStart .imagesHowToStart .smallImages {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.howToStart .imagesHowToStart .smallImages img {
+    display: block;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+.howToStart .textHowToStart {
+    width: 70%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.howToStart .textHowToStart h2 {
+    font-family: 'Quicksand';
+    font-size: 36pt;
+    font-weight: 400;
+    color: #3D4F9F;
+}
+
+.howToStart .textHowToStart p {
+    font-family: 'Roboto';
+    font-size: 14pt;
+    font-weight: 100;
+    color: #8D96BD;
+}
+
+.blog .buttonReadNow {
+    background-color: #D2E1FF;
+    border-color: white;
+    border-style: solid;
+    color: #3A79FF;
+    font-size: 13pt;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.blog .buttonAddToBookmarks {
+    background-color: white;
+    border-color: white;
+    border-style: none;
+    color: #A6B6DA;
+    font-size: 13pt;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.imagesHowToStart img {
+    cursor: zoom-in;
+}
+
+.blog .zoomInImage {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom:0;
+    left:0;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+}
+
+.zoomInImage img {
+    align-self: center;
+}
+
+.zoomInImage svg {
+    position: fixed;
+    top:0;
+    right:0;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.customerHelp {
+    display: flex;
+    flex-direction: column;
+    padding: 4% 0;
+}
+
+.customerHelp h4, .customerHelp h3 {
+   text-align: center;
+}
+
+.customerHelp h4 {
+    color: #3D4F9F;
+    font-family: 'Roboto';
+    font-size: 10pt;
+    font-weight: lighter;
+    margin: 2% 0 0 0;
+}
+
+.customerHelp h3 {
+    font-family: 'Quicksand';
+    font-size: 24pt;
+    color: #3D4F9F;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.customerHelp div {
+    padding: 0 20%;
+}
+
+.customerHelp summary {
+    font-size: 15pt;
+    font-family: 'Quicksand';
+}
+
+.customerHelp details summary {
+    color: #8E96B7;
+    font-family:  'Quicksand';
+    margin-bottom: 25px;
+}
+
+.customerHelp details p {
+    font-size: 14pt;
+    font-family: 'Roboto';
+    color: #8D96BD;
+}
+
+.customerHelp details[open] > summary {
+    color: #495274;
+    font-weight: bold;
+}
+
+.newsletter {
+    width: 100%;
+    margin: 0;
+    background-color: #F5F8FF;
+    padding: 4% 0;
+}
+
+.newsletter > div {
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    justify-content: space-between;
+}
+
+
+.newsletter h3 {
+    color: #3D4F9F;
+    font-family: 'Quicksand';
+    font-size: 18pt;
+}
+
+.newsletter p {
+    color: #8D96BD;
+    font-family: 'Roboto';
+    font-size: 14pt;
+}
+
+.enterEmail {
+    align-self: center;
+}
+
+.newsletter input {
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 13pt;
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter input::placeholder {
+    color: rgba(122, 133, 173, 0.8);
+    padding-left: 20px;
+}
+
+.newsletter input:focus {
+    outline: none;
+    border:2px solid #3D4F9F;
+}
+
+.newsletter input:invalid:focus {
+    outline: none;
+    border-color: rgb(255, 83, 83);
+}
+
+.newsletter button {
+    font-family: 'Quicksand';
+    height: 60px;
+    width: 185px;
+    background-color: #4D6CE1;
+    color: white;
+    font-size: 13pt;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer h3 {
+    font-family: 'Roboto';
+    font-size: 13pt;
+    font-weight: 100;
+    color: #AEB8D0;
+}
+
+.registration {
+    margin-top:8%;
+    margin-bottom: 8%;
+    background-color: #F5F8FF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.registration h3 {
+    font-family:'Quicksand';
+    font-size: 24pt;
+    font-weight: 500;
+    color: #3D4F9F;
+}
+
+.registration form input {
+    display: block;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 25px;
+    border: 2px solid #8D96BD;
+    font-weight: 'Roboto';
+    border-radius: 5px;
+}
+
+.registration form input:focus {
+    outline: none;
+    border-color: #3D4F9F;
+}
+
+.registration form input:invalid:focus {
+    border-color: rgb(255, 83, 83);
+}
+
+.registration button {
+    font-family: 'Quicksand';
+    height: 60px;
+    width: 185px;
+    background-color: #4D6CE1;
+    color: white;
+    font-size: 13pt;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.registration .error {
+    color: rgb(255, 83, 83);
+    margin:2% 0;
+}
